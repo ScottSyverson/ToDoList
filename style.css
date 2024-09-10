@@ -1,0 +1,100 @@
+body{
+    height: 100%;
+    background-color: rgb(243, 231, 125);
+}
+
+#theList{
+    padding: 0;
+}
+
+#header{
+    padding: 0;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border: solid black 2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.header:after {
+    padding: 30px 40px;
+    content: "";
+    color: white;
+    text-align: center;
+}
+
+.header{  
+    color: black;
+    background-color: yellow;
+}
+
+input {
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 0;
+    width: 82%;
+    padding: 10px;
+    
+}
+
+.addButton {
+    padding: 10px;
+    width: 25%;
+    background: rgb(106, 235, 106);
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid black 2px;
+
+}
+
+.addButton:hover {
+    background-color: rgb(29, 141, 15);
+    color: darkgreen;
+}
+
+ul li {
+    position: relative;
+    padding: 12px 12px 12px 40px;
+    background: lightgreen;
+    font-size: 15px;
+    list-style: none;
+    border: solid black 2px;
+}
+
+ul li:hover {
+    background: lightblue;
+}
+
+ul li.checked {
+    background: grey;
+    color: white;
+    text-decoration: line-through red 2px;
+}
+
+ul li.checked::before {
+    content: '\2713';
+    position: absolute;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    top: 3px;
+    left: 12px;
+    transform: rotate(0deg);
+}
+
+.close{
+    border-radius: 10px;
+    float: right;
+    margin-right: 25px;
+}
+
+.close:hover {
+    background-color: red;
+
+}
+
+
+
