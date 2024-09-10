@@ -1,13 +1,13 @@
-body{
+body {
     height: 100%;
     background-color: rgb(243, 231, 125);
 }
 
-#theList{
+#theList {
     padding: 0;
 }
 
-#header{
+#header {
     padding: 0;
     padding-left: 15px;
     padding-bottom: 20px;
@@ -23,7 +23,7 @@ body{
     text-align: center;
 }
 
-.header{  
+.header {
     color: black;
     background-color: yellow;
 }
@@ -34,7 +34,7 @@ input {
     margin: 0;
     width: 82%;
     padding: 10px;
-    
+
 }
 
 .addButton {
@@ -85,7 +85,7 @@ ul li.checked::before {
     transform: rotate(0deg);
 }
 
-.close{
+.close {
     border-radius: 10px;
     float: right;
     margin-right: 25px;
@@ -95,6 +95,18 @@ ul li.checked::before {
     background-color: red;
 
 }
+/*
+@media (max-width: 996px) {
 
+    input{
+        margin: 30px;
+    }
 
+    .addButton{
+        align-content: center;
+    }
+    
+    
 
+}
+*/
